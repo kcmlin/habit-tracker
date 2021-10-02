@@ -32,7 +32,7 @@ calendR(#year = 2021,
         low.col      = "white",            # Color of the lowest value
         special.col  = "#00AAAE",          # Color of the highest value
         title = "2021 - Workout",
-        subtitle = "(started 12 SEP 21, as of 1 OCT 21)"
+        subtitle = "(started on 12 SEP 21, as of 1 OCT 21)"
 )
 
 
@@ -48,7 +48,7 @@ calendR(#year = 2021,
         low.col = "white",                 # Color of the lowest value
         special.col = "#FF0000",           # Color of the highest value
         title = "2021 - German",
-        subtitle = "(started 30 SEP 21, as of 2 OCT 21)"
+        subtitle = "(started on 30 SEP 21, as of 2 OCT 21)"
         )
 
 
