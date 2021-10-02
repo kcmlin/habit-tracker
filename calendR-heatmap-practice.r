@@ -26,11 +26,11 @@ habit <- read.table("https://gist.githubusercontent.com/kcmlin/05f49a185247d1690
 calendR(#year = 2021,
         start_date   = "2021-09-01",       # Custom start date
         end_date     = "2021-12-31",       # Custom end date
-        special.days = habit[244:365,2],
+        special.days = habit[244:365,2],   # Days with an event
         start        = "S",                # Start the weeks on Sunday
-        gradient     = TRUE,
-        low.col      = "white",            # color of the lowest value
-        special.col  = "#00AAAE",          # color of the highest value
+        gradient     = TRUE,               # Color gradient
+        low.col      = "white",            # Color of the lowest value
+        special.col  = "#00AAAE",          # Color of the highest value
         title = "2021 - Workout",
         subtitle = "(started 12 SEP 21, as of 1 OCT 21)"
 )
@@ -42,11 +42,11 @@ calendR(#year = 2021,
 calendR(#year = 2021,
         start_date   = "2021-09-01",       # Custom start date
         end_date     = "2021-12-31",       # Custom end date
-        special.days = habit[244:365,3],
-        start = "S",
-        gradient = TRUE,
-        low.col = "white",
-        special.col = "#FF0000",
+        special.days = habit[244:365,3],   # Days with an event
+        start = "S",                       # Start the weeks on Sunday
+        gradient = TRUE,                   # Color gradient
+        low.col = "white",                 # Color of the lowest value
+        special.col = "#FF0000",           # Color of the highest value
         title = "2021 - German",
         subtitle = "(started 30 SEP 21, as of 2 OCT 21)"
         )
